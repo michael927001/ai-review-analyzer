@@ -1,3 +1,21 @@
+## Live Deployment (Google Cloud Run)
+
+The AI Review Analyzer backend is fully deployed on Google Cloud Run.
+
+**Base URL:**  
+https://ai-review-analyzer-689130222700.us-central1.run.app
+
+**Available Endpoints:**
+- `/` → Returns a status message confirming the API is running  
+- `/health` → Health check endpoint  
+- `/upload` → Accepts a CSV file of reviews and returns the total row count + a sample  
+
+---
+
+
+
+
+
 AI Review Analyzer
 
 An AI-powered web application that automatically collects and analyzes Google and Yelp business reviews. The goal is to give small business owners quick, actionable insights by summarizing sentiment, extracting recurring themes, and generating improvement recommendations.
