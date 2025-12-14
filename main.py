@@ -27,3 +27,4 @@ async def upload_reviews(file: UploadFile = File(...)):
         "total_reviews": len(reviews),
         "sample": reviews[:3]  # Show first 3 reviews
     }
+# Sprint 3 enhancement added
